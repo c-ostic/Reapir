@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class diat : MonoBehaviour
+public class dialogueTrigger : MonoBehaviour
 {
     public dialogue text;
     public GameObject panel;
@@ -10,18 +10,18 @@ public class diat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void TriggerDialogue()
     {
         panel.SetActive(true);
-        FindObjectOfType<dialogue_manager>().StartDialogue(text);
+        FindObjectOfType<dialogueManager>().StartDialogue(text);
     }
 }

@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogue_trigger : MonoBehaviour
+public class on_click : MonoBehaviour
 {
-    public dialogue text;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +14,5 @@ public class dialogue_trigger : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void TriggerDialogue()
-    {
-        FindObjectOfType<dialogue_manager>().StartDialogue(text);
     }
 }

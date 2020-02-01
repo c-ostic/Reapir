@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogue_manager : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     public Queue<string> sentences;
 
@@ -12,8 +12,5 @@ public class dialogue_manager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(dialogue text)
-    {
-        Debug.Log("Starting Conversation with" + text.name);
-    }
+    
 }

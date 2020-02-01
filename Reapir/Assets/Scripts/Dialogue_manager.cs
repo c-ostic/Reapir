@@ -9,6 +9,7 @@ public class dialogue_manager : MonoBehaviour
 
     public Text nameText;
     public Text dialogueText;
+    public GameObject panel;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,8 @@ public class dialogue_manager : MonoBehaviour
         nameText.text = text.name;
 
         sentences.Clear();
+
+        panel.SetActive(true);
 
         foreach (string sentence in text.sentences)
         {
@@ -48,6 +51,7 @@ public class dialogue_manager : MonoBehaviour
     public void EndDialogue()
     {
         Debug.Log("End of conversation");
+        panel.SetActive(false);
     }
 }
 

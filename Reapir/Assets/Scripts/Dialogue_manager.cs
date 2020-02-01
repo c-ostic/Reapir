@@ -22,8 +22,6 @@ public class dialogue_manager : MonoBehaviour
 
         nameText.text = text.name;
 
-        //dialogueText.text = text.
-
         sentences.Clear();
 
         foreach (string sentence in text.sentences)

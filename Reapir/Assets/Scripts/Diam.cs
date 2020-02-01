@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class dialogue_manager : MonoBehaviour
+public class diam : MonoBehaviour
 {
     public Queue<string> sentences;
 
@@ -54,3 +54,6 @@ public class dialogue_manager : MonoBehaviour
         panel.SetActive(false);
     }
 }
+
+
+

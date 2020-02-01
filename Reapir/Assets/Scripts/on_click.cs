@@ -13,6 +13,15 @@ public class on_click : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            //dialogue_trigger.TriggerDialogue();
+        }
     }
+
+    public void test()
+    {
+        Debug.Log("Starting Conversation with");
+    }
+
 }

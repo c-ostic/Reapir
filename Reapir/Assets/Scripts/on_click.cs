@@ -21,7 +21,7 @@ public class on_click : MonoBehaviour
 
     public void test()
     {
-        Debug.Log("Starting Conversation with");
+        //Debug.Log("Starting Conversation with");
     }
 
 }

@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class dialogue_manager : MonoBehaviour
 {
     public Queue<string> sentences;
+
+    public Text nameText;
+    public Text dialogueText;
 
     // Start is called before the first frame update
     void Start()
@@ -14,7 +18,11 @@ public class dialogue_manager : MonoBehaviour
 
     public void StartDialogue(dialogue text)
     {
-        Debug.Log("Starting Conversation with" + text.name);
+        //Debug.Log("Starting Conversation with" + text.name);
+
+        nameText.text = text.name;
+
+        //dialogueText.text = text.
 
         sentences.Clear();
 
@@ -35,6 +43,7 @@ public class dialogue_manager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+        dialogueText.text = sentence;
         Debug.Log(sentence);
     }
 

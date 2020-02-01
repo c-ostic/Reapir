@@ -23,7 +23,7 @@ public class ChangeScene : MonoBehaviour
         if (active && collision.gameObject.name == "Player")
         {
             SceneManager.LoadScene(sceneName);
-            thePlayer.startPoint = exitPoint;
+            thePlayer.setStartPoint(exitPoint);
         }
     }
 }

@@ -13,7 +13,7 @@ public class PlayerStartPoint : MonoBehaviour
     {
         thePlayer = FindObjectOfType<player_movement>();
 
-        if(thePlayer.startPoint == pointName)
+        if(thePlayer.getStartPoint() == pointName)
             thePlayer.transform.position = transform.position;
     }
 

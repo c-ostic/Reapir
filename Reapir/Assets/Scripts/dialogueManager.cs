@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class dialogue_manager : MonoBehaviour
+public class dialogueManager : MonoBehaviour
 {
     public Queue<string> sentences;
 

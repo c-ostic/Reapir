@@ -6,15 +6,31 @@ public class camera_controls : MonoBehaviour
 {
     public GameObject player;
 
-    private Vector3 offset;
+    // still variable can be used to make camera static
+    public bool still = false;
 
+    private Vector3 offset = Vector3.back;
+
+    // set still command
+    public void setStill(bool b)
+    {
+        still = b;
+    }
+
+    
     void Start()
     {
-        offset = transform.position - player.transform.position;
+        if (still == false)
+        {
+            transform.position = player.transform.position + offset;
+        }
     }
 
     void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        if (still == false)
+        {
+            transform.position = player.transform.position + offset;
+        }
     }
 }

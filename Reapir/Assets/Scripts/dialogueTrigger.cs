@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogue_trigger : MonoBehaviour
+public class dialogueTrigger : MonoBehaviour
 {
     public dialogue text;
     public GameObject panel;
@@ -22,6 +22,6 @@ public class dialogue_trigger : MonoBehaviour
     public void TriggerDialogue()
     {
         panel.SetActive(true);
-        FindObjectOfType<dialogue_manager>().StartDialogue(text);
+        FindObjectOfType<dialogueManager>().StartDialogue(text);
     }
 }

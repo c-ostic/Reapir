@@ -504,7 +504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e7e41a854313f544a721d178c376538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 632229436}
   still: 0
 --- !u!20 &519420031
 Camera:
@@ -611,6 +610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 632229439}
+  startPoint: 
 --- !u!50 &632229439
 Rigidbody2D:
   serializedVersion: 4

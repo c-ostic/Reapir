@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Overworld
-  active: 1
+  active: 0
   exitPoint: Red House Out
 --- !u!61 &369515340
 BoxCollider2D:

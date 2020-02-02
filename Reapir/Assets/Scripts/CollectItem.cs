@@ -11,5 +11,8 @@ public class CollectItem : MonoBehaviour
         Debug.Log("Collecting Item");
         GlobalVars.setTrue(pieceName);
         gameObject.SetActive(false);
+
+        ChangeScene exit = FindObjectOfType<ChangeScene>();
+        exit.active = true;
     }
 }

@@ -10,6 +10,16 @@ public class player_movement : MonoBehaviour
 
     Vector2 movement;
 
+    public static string startPoint;
+
+    private void Start()
+    {
+        Debug.Log("Projector Base " + GlobalVars.projectorBase);
+        Debug.Log("Projector Film " + GlobalVars.projectorFilm);
+        Debug.Log("Projector Reel " + GlobalVars.projectorReel);
+        Debug.Log("Projector Lens " + GlobalVars.projectorLens);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -22,5 +32,15 @@ public class player_movement : MonoBehaviour
     {
         //movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public string getStartPoint()
+    {
+        return startPoint;
+    }
+
+    public void setStartPoint(string newStartPoint)
+    {
+        startPoint = newStartPoint;
     }
 }

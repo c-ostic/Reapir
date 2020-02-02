@@ -15,6 +15,7 @@ public class dialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        panel.SetActive(false);
     }
 
     public void StartDialogue(dialogue text)

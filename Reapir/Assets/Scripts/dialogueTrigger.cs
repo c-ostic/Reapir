@@ -21,6 +21,7 @@ public class dialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
+        Debug.Log("have been clicked");
         panel.SetActive(true);
         FindObjectOfType<dialogueManager>().StartDialogue(text);
     }

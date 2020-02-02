@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class camera_controls : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
 
     // still variable can be used to make camera static
     public bool still = false;
@@ -20,6 +20,8 @@ public class camera_controls : MonoBehaviour
     
     void Start()
     {
+        player = FindObjectOfType<player_movement>().gameObject;
+
         if (still == false)
         {
             transform.position = player.transform.position + offset;

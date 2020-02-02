@@ -23,7 +23,7 @@ public class gridSwap : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (on == false)
+        if (grid1.active == false)
         {
             Debug.Log("Collision");
             grid1.SetActive(true);

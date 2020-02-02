@@ -13,6 +13,6 @@ public class CollectItem : MonoBehaviour
         gameObject.SetActive(false);
 
         ChangeScene exit = FindObjectOfType<ChangeScene>();
-        exit.active = true;
+        exit.open = true;
     }
 }

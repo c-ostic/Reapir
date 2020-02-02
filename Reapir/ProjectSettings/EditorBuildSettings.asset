@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BoatHouse.unity
     guid: ec7d5f6faa9f30446b87ed1e65029720
+  - enabled: 1
+    path: Assets/Scenes/Puzzle1.unity
+    guid: 2914a22b69a7d424f83c796c1bef733d
+  - enabled: 1
+    path: Assets/Scenes/Puzzle2.unity
+    guid: 555cc9115d156054bac55d09d74c68e9
+  - enabled: 1
+    path: Assets/Scenes/Puzzle4.unity
+    guid: 698ebe96d8a25884f8a648298a4b4758
+  - enabled: 1
+    path: Assets/Scenes/Puzzle5.unity
+    guid: cac2133a36ebdcb4eae0c07cb2f48df9
+  - enabled: 1
+    path: Assets/Scenes/puzzle 7.unity
+    guid: 5b40693211624f44ebff374310ac0e1f
+  - enabled: 1
+    path: Assets/Scenes/puzzle8.unity
+    guid: 098edf258c94d8145ae5edc85d1c2aa3
   m_configObjects: {}

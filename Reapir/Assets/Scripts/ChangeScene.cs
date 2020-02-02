@@ -7,7 +7,7 @@ public class ChangeScene : MonoBehaviour
 {
     public string sceneName;
 
-    public bool active;
+    public bool open;
 
     public string exitPoint;
 
@@ -20,7 +20,7 @@ public class ChangeScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (active)
+        if (open)
         {
             SceneManager.LoadScene(sceneName);
             thePlayer.setStartPoint(exitPoint);

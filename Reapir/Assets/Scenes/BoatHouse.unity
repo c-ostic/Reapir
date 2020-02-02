@@ -18888,7 +18888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Overworld
-  active: 1
+  open: 1
   exitPoint: Boat House Out
 --- !u!61 &1423226054
 BoxCollider2D:

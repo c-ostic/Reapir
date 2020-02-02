@@ -653,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Puzzle1
   open: 0
-  exitPoint: GraveyardCrypt In
+  exitPoint: GraveyardCrypt Out
 --- !u!61 &330531853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6737,7 +6737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: RedHouse
   open: 0
-  exitPoint: Red House In
+  exitPoint: Red House Out
 --- !u!61 &957643305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7338,7 +7338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Puzzle5
   open: 0
-  exitPoint: Blue House In
+  exitPoint: Blue House Out
 --- !u!61 &1403195359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52090,7 +52090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: BoatHouse
   open: 0
-  exitPoint: Boat House In
+  exitPoint: Boat House Out
 --- !u!61 &1731592827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52209,7 +52209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: GreenHouse
   open: 0
-  exitPoint: Green House In
+  exitPoint: Green House Out
 --- !u!61 &2004038187
 BoxCollider2D:
   m_ObjectHideFlags: 0

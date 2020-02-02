@@ -11,7 +11,9 @@ public class DoorManager : MonoBehaviour
     {
         //graveyardDoor
         if (GlobalVars.projectorReel)
+        {
             graveyardDoor.GetComponent<ChangeScene>().open = false;
+        }
         else
             graveyardDoor.GetComponent<ChangeScene>().open = true;
 
@@ -29,7 +31,11 @@ public class DoorManager : MonoBehaviour
 
         //greenHouseDoor
         if (GlobalVars.projectorLens && !GlobalVars.projectorFilm)
+        {
+            Application.LoadLevel("videoTest");
             greenHouseDoor.GetComponent<ChangeScene>().open = true;
+            
+        }
         else
             greenHouseDoor.GetComponent<ChangeScene>().open = false;
 

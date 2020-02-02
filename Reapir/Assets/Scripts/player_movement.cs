@@ -14,7 +14,10 @@ public class player_movement : MonoBehaviour
 
     private void Start()
     {
-        
+        Debug.Log("Projector Base " + GlobalVars.projectorBase);
+        Debug.Log("Projector Film " + GlobalVars.projectorFilm);
+        Debug.Log("Projector Reel " + GlobalVars.projectorReel);
+        Debug.Log("Projector Lens " + GlobalVars.projectorLens);
     }
 
     // Update is called once per frame

@@ -6735,7 +6735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23352ef7a7946a4ebca94ae4e2b1c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: RedHouse
+  sceneName: Puzzle5
   open: 0
   exitPoint: Red House Out
 --- !u!61 &957643305
@@ -7336,7 +7336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23352ef7a7946a4ebca94ae4e2b1c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Puzzle5
+  sceneName: puzzle3
   open: 0
   exitPoint: Blue House Out
 --- !u!61 &1403195359
@@ -52207,7 +52207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a23352ef7a7946a4ebca94ae4e2b1c7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GreenHouse
+  sceneName: puzzle8
   open: 0
   exitPoint: Green House Out
 --- !u!61 &2004038187

@@ -18270,7 +18270,7 @@ PrefabInstance:
     - target: {fileID: 4734150193039314036, guid: fe7b6d5bfc2d2cb42aecf5ad7a846e24,
         type: 3}
       propertyPath: sceneName
-      value: puzzle8
+      value: RedHouse
       objectReference: {fileID: 0}
     - target: {fileID: 4734150193039314039, guid: fe7b6d5bfc2d2cb42aecf5ad7a846e24,
         type: 3}

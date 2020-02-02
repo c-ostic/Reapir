@@ -17497,7 +17497,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783646810
 GameObject:
@@ -19700,7 +19700,7 @@ PrefabInstance:
     - target: {fileID: 4734150193039314036, guid: fe7b6d5bfc2d2cb42aecf5ad7a846e24,
         type: 3}
       propertyPath: sceneName
-      value: Puzzle4
+      value: GraveyardCrypt
       objectReference: {fileID: 0}
     - target: {fileID: 4734150193039314039, guid: fe7b6d5bfc2d2cb42aecf5ad7a846e24,
         type: 3}

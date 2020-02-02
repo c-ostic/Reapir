@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorManager : MonoBehaviour
 {
@@ -38,6 +39,13 @@ public class DoorManager : MonoBehaviour
             boatHouseDoor.GetComponent<ChangeScene>().open = true;
         else
             boatHouseDoor.GetComponent<ChangeScene>().open = false;
+
+        //foundFootage
+        if(GlobalVars.projectorFilm && !GlobalVars.foundFootagePlayed)
+        {
+            SceneManager.LoadScene("videoTest");
+            GlobalVars.setTrue("foundFootagePlayed");
+        }
     }
 
 }

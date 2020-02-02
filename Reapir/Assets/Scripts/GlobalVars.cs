@@ -8,7 +8,8 @@ public class GlobalVars
         projectorLens, 
         projectorFilm, 
         projectorReel, 
-        coin;
+        coin,
+        foundFootagePlayed;
 
     public static void setTrue(string pieceName)
     {
@@ -28,6 +29,9 @@ public class GlobalVars
                 break;
             case "coin":
                 coin = true;
+                break;
+            case "foundFootagePlayed":
+                foundFootagePlayed = true;
                 break;
             default:
                 Debug.Log("Invalid string given to Global Variables");

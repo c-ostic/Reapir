@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogueTrigger : MonoBehaviour
+public class npcCollision : MonoBehaviour
 {
+
     public dialogue text;
     public GameObject panel;
 
@@ -17,6 +18,11 @@ public class dialogueTrigger : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        TriggerDialogue();
     }
 
     public void TriggerDialogue()

@@ -10,21 +10,11 @@ public class player_movement : MonoBehaviour
 
     Vector2 movement;
 
-    private static bool playerExists;
-
-    public string startPoint;
+    public static string startPoint;
 
     private void Start()
     {
-        if (!playerExists)
-        {
-            playerExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        
     }
 
     // Update is called once per frame
@@ -39,5 +29,15 @@ public class player_movement : MonoBehaviour
     {
         //movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    public string getStartPoint()
+    {
+        return startPoint;
+    }
+
+    public void setStartPoint(string newStartPoint)
+    {
+        startPoint = newStartPoint;
     }
 }
